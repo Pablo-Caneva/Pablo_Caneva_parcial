@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Banco.cs" />
     <Compile Include="CargaArchivos.cs" />
+    <Compile Include="VentanaIngreso.cs" />
     <Compile Include="DatosCuentas\CajaDeAhorro.cs" />
     <Compile Include="DatosClientes\Empresa.cs" />
     <Compile Include="DatosCuentas\PlazoFijo.cs" />
@@ -77,6 +78,12 @@
     <Compile Include="IValidar.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="NuevoCliente.resx">
+      <DependentUpon>NuevoCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operaciones.resx">
+      <DependentUpon>Operaciones.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="VentanaPrincipal.resx">
       <DependentUpon>VentanaPrincipal.cs</DependentUpon>
     </EmbeddedResource>

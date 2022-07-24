@@ -18,13 +18,10 @@ namespace Pablo_Caneva_parcial
             CultureInfo.CurrentCulture = CultureInfo.GetCultureInfo("es-AR");
             Banco bancoSantaFe = new Banco();
             CargaArchivos.PersonasCA(bancoSantaFe);
-            CargaArchivos.PersonasCAPF(bancoSantaFe);
             CargaArchivos.PersonasCC(bancoSantaFe);
-            CargaArchivos.PersonasCCPF(bancoSantaFe);
             CargaArchivos.EmpresasCA(bancoSantaFe);
-            CargaArchivos.EmpresasCAPF(bancoSantaFe);
             CargaArchivos.EmpresasCC(bancoSantaFe);
-            CargaArchivos.EmpresasCCPF(bancoSantaFe);
+            CargaArchivos.PlazosFijos(bancoSantaFe);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new VentanaPrincipal(bancoSantaFe));
